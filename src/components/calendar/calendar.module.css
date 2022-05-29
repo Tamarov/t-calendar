@@ -1,0 +1,11 @@
+.calendar{
+    width: calc(100vw - 620px);
+    height: calc(100vh - 60px);
+
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

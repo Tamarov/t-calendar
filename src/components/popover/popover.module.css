@@ -1,0 +1,47 @@
+.popover{
+    background: rgba(0, 0, 0, .6);
+
+    position: absolute;
+    z-index: 20;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popover__wrap{
+    width: 500px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px;
+}
+.popover__title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.popover__type, .popover__date{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.popover__type span, .popover__date span{
+    font-weight: 700;
+}
+
+
+.popover__description, .popover__loc{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.popover__description span, .popover__loc span{
+    font-weight: 500;
+ }

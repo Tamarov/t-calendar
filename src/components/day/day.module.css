@@ -1,0 +1,34 @@
+.day{
+    width: 36px;
+    height: 36px;
+
+    margin: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #D9ECF2;
+
+    border-radius: 4px;
+}
+
+.meetingExpert{
+    background: #73F660;
+    cursor: pointer;
+}
+
+.qa{
+    background: #FF8F4A;
+    cursor: pointer;
+}
+
+.conference{
+    background: #58F0FE;
+    cursor: pointer;
+}
+
+.webinar{
+    background: #F6E760;
+    cursor: pointer;
+}
